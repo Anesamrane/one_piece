@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0D0D0D;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 0.8vh #2525257b;
+    z-index: 9999;
+}
+header nav{
+    position: relative;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header nav div{
+    width: 10%;
+    height: 8vh;
+    position: relative;
+    transition: 0.3s;
+}
+header nav div a,header nav div button {
+    text-decoration: none;
+    font-weight: bold;
+    color: #171717;
+    position: relative;
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-bottom-width: 0;
+    border-radius: 1vh;
+  }
+  .sun{
+    background-color: #e6e6e6;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    position: relative;
+    right: 40%;
+    margin: 0 1vh 0 1vh;
+  }
+  .sun button{
+    border-radius: 50%;
+  }
+  nav input{
+    position: absolute;
+    width: 350%;
+    padding: 1vh;
+    right: -20%;
+    background-color: #e6e6e6;
+    color: #171717;
+    border: none;
+    outline: none;
+    border-radius: 2vh;
+  }
+  .sun:hover>button{
+    background-color: #2256F2;
+    color: #fff;
+  }
+  nav input:focus{
+    box-shadow: 0 0 0.5vh #2256F2;
+  }
+  header nav div i{
+    margin-left: 2%;
+  }
+  header nav div a img{
+    position: absolute;
+    height: 100%;
+    border-radius: 100%;
+  }
+  
+  header nav div:hover > .nav {
+    background-color: #e6e6e6;
+    color: #2256F2;
+    border-bottom-width: 50%;
+}
+
+  
+
+
+
+
+.chapters3all{
+  display: none;
+  width: 100%;
+  height: 60vh;
+  z-index: 9999;
+}
+.chapters3{
+  position: relative;    
+  top: 12vh;                                               
+  height: 20vh;
+  width: 15%;
+  background-color: #fff;
+  box-shadow: 0 0 2vh #25252567;
+  position: fixed;
+  transition: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hover3:hover>.chapters3all{
+  display: block;
+}
+.chapters3 div{
+  width: 100%;
+  line-height: 8vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+ 
+}
+.chapters3 div a{
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 8%;
+  text-decoration: none;
+  color: #171717;
+  transition: 0.2s;
+  border-radius: 0;
+}
+.chapters3 div a *{
+  padding-left: 5%;
+}
+.chapters3 div:hover>a{
+background-color: #e6e6e6;
+color: #2256F2;
+}
+.chapters3 h4{
+color: #fff;
+}
+
+
+
+
+
+
+.chapters4all{
+  display: none;
+  width: 100%;
+  height: 60vh;
+  z-index: 9999;
+}
+.chapters4{
+  position: relative;    
+  top: 12vh;                                               
+  height: 40vh;
+  width: 15%;
+  background-color: #fff;
+  box-shadow: 0 0 2vh #25252567;
+  position: fixed;
+  transition: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hover4:hover>.chapters4all{
+  display: block;
+}
+.chapters4 div{
+  width: 100%;
+  line-height: 8vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+ 
+}
+.chapters4 div a{
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 8%;
+  text-decoration: none;
+  color: #171717;
+  transition: 0.2s;
+  border-radius: 0;
+}
+.chapters4 div a *{
+  padding-left: 5%;
+}
+.chapters4 div:hover>a{
+background-color: #e6e6e6;
+color: #2256F2;
+}
+.chapters4 h4{
+color: #fff;
+}
+
+
+
+
+
+
+
+.chapters5all{
+  display: none;
+  width: 100%;
+  height: 60vh;
+  z-index: 9999;
+}
+.chapters5{
+  position: relative;    
+  top: 12vh;                                               
+  height: 30vh;
+  width: 15%;
+  background-color: #fff;
+  box-shadow: 0 0 2vh #25252567;
+  position: fixed;
+  transition: 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hover5:hover>.chapters5all{
+  display: block;
+}
+.chapters5 div{
+  width: 100%;
+  line-height: 8vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+ 
+}
+.chapters5 div a{
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 8%;
+  text-decoration: none;
+  color: #171717;
+  transition: 0.2s;
+  border-radius: 0;
+}
+.chapters5 div a *{
+  padding-left: 5%;
+}
+.chapters5 div:hover>a{
+background-color: #e6e6e6;
+color: #2256F2;
+}
+.chapters5 h4{
+color: #fff;
+}
+
+
+/* the slides */
+
+.carousel-inner img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(80%);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carousel-inner a{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  #carouselExampleCaptions{
+    height: 45vh;
+  }
+
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+
+
+  /* books */
+
+  .wall{
+    position: relative;
+    top: 10vh;
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh;
+  }
+  .book{
+    width: 17%;
+    height: 50vh;
+    margin: 2vh;
+    text-decoration: none;
+    color: #171717;
+  }
+  .book p{
+    position: relative;
+    width: fit-content;
+    bottom: 7vh;
+    right: 58%;
+    background-color: #fff;
+    padding: 1vh;
+    letter-spacing: 5%;
+    border-radius: 3vh;
+  }
+  .book-img{
+    width: 100%;
+    height: 80%;
+    transition: 0.3s;
+  }
+  .book-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+    transition: 0.3s;
+    filter: brightness(90%);
+    object-fit: cover;
+    object-position: center;
+  }
+  .wall h5{
+    position: absolute;
+    top: -3vh;
+    font-weight: bold;
+    background-color: #2256F2;
+    padding: 1.2vh;
+    color: #F0F0F2;
+    border-radius: 2vh;
+  }
+  .book h6{
+    margin-top: 2vh;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .book:hover > .book-img img{
+    box-shadow: 0 0 2vh #2256F2;
+  border-radius: 0;
+  filter: brightness(100%);
+  }
+
+
+ .book2{
+    width: 31%;
+    height:35vh;
+    display: flex;
+    text-decoration: none;
+    color: #171717;
+    margin: 2vh;
+    transition: 0.3s;
+ }
+ .book2 .book-img2{
+    width: 100%;
+    height: 80%;
+ }
+ .book2 .book-img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vh;
+    transition: 0.3s;
+    filter: brightness(90%);
+ }
+ .book-info{
+  position: absolute;
+  
+
+ }
+ .book-info p{
+  position: relative;
+  top: 30vh;
+  right: 3vh;
+    font-weight: bold;
+    color: #fff;
+ }
+ .book2:hover>.book-img2 img{
+  box-shadow: 0 0 2vh #2256F2;
+  border-radius: 0;
+  filter: brightness(100%);
+  }
+
+
+  /* book 3  */
+
+  
+  .book3{
+    position: relative;
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    text-decoration: none;
+    color: #171717;
+    margin: 2vh;
+    transition: 0.3s;
+    box-shadow: 0 0 0.5vh #252525;
+    background-color: #fff;
+    transition: 0.3s;
+    filter: brightness(90%);
+ }
+ .book3 .book-img3{
+    width: 40%;
+    height: 90%;
+    padding: 2vh;
+ }
+ /* Update the CSS for the image inside the container */
+.book3 .book-img3 img {
+  width: 100%; /* Allow the image to take the full width of the container */
+  height: 100%; /* Allow the image to take the full height of the container */
+  object-fit: cover; /* Resize the image to cover the entire container */
+  object-position: center; /* Center the image within the container */
+}
+
+ .book-info3{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    padding: 2vh;
+ }
+ .book-info3 .user{
+  position: absolute;
+  left: 2%;
+ }
+ .book-info3 .user img{
+  width: 5vh;
+  height: 5vh;
+  background-color: #2b67b0;
+  border-radius: 50%;
+  object-fit: cover; /* Resize the image to cover the entire container */
+  object-position: center; /* Center the image within the container */
+ }
+ .book-info3 h6{
+    font-weight: bolder;
+ }
+ .book-info3 p{
+    font-weight: bold;
+ }
+  .book-info3 .like{
+    position: absolute;
+    right: 1%;
+    bottom: 3%;
+  }
+  .book-info3 .vue{
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+  }
+  .book-info3 .spoil{
+    position: absolute;
+    left: 2%;
+    bottom: 3%;
+    font-weight: bold;
+    color: red;
+  }
+
+.book3:hover{
+  box-shadow: 0 0 2vh #2256F2;
+  border-radius: 0;
+  filter: brightness(100%);
+}
+  
+
+
+
+/* footer */
+
+
+footer{
+  height: 30vh;
+  width: 100%;
+  background-color: #171717;
+  margin-top: 10vh;
+}
+footer .social{
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  margin-top: 20vh;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.social .facebook,.social .instagram, .social .twitter,.social .discord{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  background-color: #252525;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social .facebook:hover{
+  color: #2256F2;
+  background-color: #fff;
+}
+.social .instagram:hover{
+  color: #8022f2;
+  background-color: #fff;
+}
+.social .twitter:hover{
+  color: #228af2;
+  background-color: #fff;
+}
+.social .discord:hover{
+  color: #2256f2;
+  background-color: #fff;
+}
+
+
+
+
+footer .about{
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  margin-top: 12vh;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+footer .about a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.about a:hover{
+  color: #2256F2;
+}
+
+footer .right{
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  margin-top: 5vh;
+  color: #fff;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
